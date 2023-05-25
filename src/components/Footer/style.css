@@ -1,0 +1,16 @@
+footer {
+  align-items: center;
+  background-color: #333;
+  display: flex;
+  justify-content: center;
+  margin-top: auto;
+  min-height: 48px;
+  padding: 0.5rem;
+  text-align: center;
+  width: 100%;
+}
+
+footer p {
+  color: #fff;
+  font-size: 0.875em;
+}

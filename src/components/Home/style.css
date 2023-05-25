@@ -1,0 +1,11 @@
+.home-section {
+  justify-content: center;
+  text-align: center;
+}
+
+.home-section p {
+  color: #1d1d1d;
+  font-size: 1.5em;
+  line-height: 1em;
+  padding-bottom: 24px;
+}

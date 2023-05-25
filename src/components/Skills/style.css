@@ -1,0 +1,71 @@
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.skill {
+  align-items: center;
+  background-color: #27272788;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.651);
+  display: flex;
+  height: 130px;
+  justify-content: center;
+  margin-bottom: 10px;
+  padding: 0.5rem;
+  width: 130px;
+}
+
+.skills .skill img {
+  width: 100%;
+}
+
+.NodeJS,
+.CSS {
+  height: 100% !important;
+  width: auto;
+}
+
+@media (min-width: 768px) {
+  .skill {
+    display: flex;
+    flex-wrap: wrap;
+    height: 210px;
+    width: 210px;
+  }
+
+  .skills .skill img {
+    height: 180px;
+  }
+
+  .animate__fadeInLeft {
+    animation-name: slideInLeft;
+    animation-duration: 4s;
+    animation-fill-mode: both;
+  }
+
+  @keyframes slideInLeft {
+    from {
+      transform: translateX(-100%);
+    }
+
+    to {
+      transform: translateX(0%);
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .skill {
+    transform: translateX(-100%);
+    filter: grayscale(100%);
+    transition: filter 0.3s ease-in-out;
+  }
+
+  .skill:hover {
+    background-color: #30303067;
+    filter: grayscale(40%);
+  }
+}

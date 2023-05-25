@@ -1,0 +1,61 @@
+header#little {
+  background-color: #333333e5;
+  color: #fff;
+  padding: 0.5rem;
+  width: 100%;
+}
+
+header a {
+  margin: 0;
+}
+
+#mySidebar {
+  border-right: 1px solid #cecece;
+  background-color: #333333e5;
+  height: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  top: 0;
+  width: 200px;
+  z-index: 1;
+}
+
+.bar-item {
+  border-top: 1px solid #cecece;
+  display: block;
+  float: none;
+  font-size: 1rem;
+  outline: 0;
+  padding: 16px 24px;
+  text-align: left;
+  width: 100%;
+  white-space: normal;
+}
+
+.bar-item:nth-child(1) {
+  border-top: none;
+  margin-top: 20px;
+}
+
+.button {
+  background-color: #ffffff86;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  overflow: hidden;
+  padding: 12px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.sidebar-open {
+  display: block;
+}
+
+.sidebar-closed {
+  display: none;
+}

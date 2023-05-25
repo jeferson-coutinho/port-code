@@ -1,0 +1,45 @@
+header#default {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333333e5;
+  color: #fff;
+  padding: 0.5rem;
+  width: 100%;
+}
+
+header nav {
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+
+header nav ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+}
+
+header nav li {
+  font-size: 1em;
+  margin: 0;
+  padding: 0.7rem;
+}
+
+header nav li:first-child {
+  margin-left: 0;
+}
+
+header nav li:last-child {
+  margin-right: 0;
+}
+
+header a {
+  color: #fff;
+  margin: auto 16px;
+  text-decoration: none;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
